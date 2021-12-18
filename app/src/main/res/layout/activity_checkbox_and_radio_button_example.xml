@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckboxAndRadioButtonActivityExample">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What do you want in your Pizza?"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgVeggies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/tvQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuestion">
+
+        <RadioButton
+            android:id="@+id/rbTomato"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomato"/>
+
+        <RadioButton
+            android:id="@+id/rbOnion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onion"/>
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbCoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coke"
+        app:layout_constraintStart_toStartOf="@+id/rgVeggies"
+        app:layout_constraintTop_toBottomOf="@+id/rgVeggies" />
+
+    <CheckBox
+        android:id="@+id/cbPepsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pepsi"
+        app:layout_constraintStart_toStartOf="@+id/cbCoke"
+        app:layout_constraintTop_toBottomOf="@+id/cbCoke" />
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        app:layout_constraintEnd_toEndOf="@+id/tvQuestion"
+        app:layout_constraintStart_toStartOf="@+id/cbPepsi"
+        app:layout_constraintTop_toBottomOf="@+id/cbPepsi" />
+
+    <TextView
+        android:id="@+id/tvOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="@+id/btnOrder"
+        app:layout_constraintTop_toBottomOf="@+id/btnOrder" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
