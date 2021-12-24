@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Android Fundamentals</string>
+    <string-array name="months">
+        <item>Janurary</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+    </string-array>
 </resources>

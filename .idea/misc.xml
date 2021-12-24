@@ -3,16 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_alert_dialog_example.xml" value="0.1" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_checkbox_and_radio_button_example.xml" value="0.176" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_constraint_layout_example2.xml" value="0.196875" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_contrainst_layout_example.xml" value="0.196875" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_edit_text_example.xml" value="0.196875" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_image_view_example.xml" value="0.196875" />
+        <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_implicit_intent_example.xml" value="0.1" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_permission_example.xml" value="0.196875" />
+        <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_spinner_example.xml" value="0.152" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_text_view_example.xml" value="0.2" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/activity_toast_example.xml" value="0.196875" />
         <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/layout/custom_toast.xml" value="0.196875" />
+        <entry key="..\:/MOBILE APP DEVELOPMENT/PROJECTS/NATIVE/AndroidFundamentals/app/src/main/res/menu/app_bar_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
